@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.white_box{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+.heading_text{
+    font-family: 'Young serif', serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.text_one{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.prep{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%) ;
+    padding-left: 16px;
+}
+.prep_box{
+    background-color:hsl(330, 100%, 98%)  ;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.ingredients,
+.instructions,
+.nutrition{
+    font-family: 'Young serif', serif;
+    font-weight: 400;
+    color: hsl(332, 51%, 32%) ;
+}
+.image{
+    width: 700px;
+    margin-bottom: 12px;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+.step_one,
+.step_two,
+.step_three,
+.step_four,
+.step_five,
+.step_six{
+    margin-bottom: 10px;
+}
+.nutrition_text{
+    margin-bottom: 12px;
+}
+/* .calories{
+    display: inline-block;
+    margin-right: 300px;
+} */
+.value{
+    color: hsl(332, 51%, 32%) ;
+}
+
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+/* .carbs{
+    display: inline-block;
+    margin-right: 318px;
+}
+.protein{
+    display: inline-block;
+    margin-right: 308px;
+}
+.fat{
+    display: inline-block;
+    margin-right: 334px;
+} */
+
+.food_value{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainCont{
+    width: 200px;
+    margin-right: 200px;
+}
